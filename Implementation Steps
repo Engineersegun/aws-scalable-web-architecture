@@ -1,0 +1,13 @@
+1. Launch Template Configuration
+Defined the "blueprint" for our servers, including:
+AMI Selection: Amazon Linux 2.
+User Data Scripting: Automated the update and installation of the Apache web server.
+Security Groups: Configured to allow inbound traffic on Port 80 (HTTP) and Port 22 (SSH).
+2. Auto Scaling Group (ASG) Setup
+Configured the ASG to maintain a fleet of instances across multiple subnets.
+Scaling Policy: Set a Target Tracking policy to scale out when CPU utilization exceeds 60%.
+Self-Healing: If an instance becomes unhealthy, the ASG automatically terminates and replaces it.
+3. Application Load Balancer (ALB)
+Deployed a public-facing ALB to:
+Route traffic to the Target Group managed by the ASG.
+Perform health checks to ensure traffic only hits functioning servers.
