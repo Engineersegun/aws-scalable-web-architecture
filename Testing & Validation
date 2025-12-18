@@ -1,0 +1,3 @@
+Load Testing: Used ab -n 1000 -c 50 to simulate a traffic spike.
+Observed Result: AWS CloudWatch triggered a scaling event, and the ASG successfully launched additional instances to handle the load.
+Failover Test: Manually terminated one instance; the ALB redirected traffic to the remaining healthy instance, and the ASG immediately provisioned a replacement.
