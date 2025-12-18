@@ -1,0 +1,4 @@
+📌 Project Overview
+This project demonstrates the deployment of a highly available, fault-tolerant web application using Amazon Web Services (AWS).
+The architecture utilizes an Application Load Balancer (ALB) to distribute incoming traffic across multiple EC2 instances managed by an Auto Scaling Group (ASG).
+The primary goal was to ensure the application could handle traffic spikes automatically while maintaining 100% uptime through multi-AZ (Availability Zone) redundancy
