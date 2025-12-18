@@ -1,0 +1,5 @@
+Region/AZs: Multi-Availability Zone deployment for high availability.
+Compute: Amazon EC2 (t2.micro) instances.
+Scaling: Auto Scaling Group (Desired: 2, Min: 1, Max: 4).
+Traffic Management: Application Load Balancer (ALB) acting as a single entry point.
+Automation: Bash scripts used in User Data for automated web server (Apache) installation.
