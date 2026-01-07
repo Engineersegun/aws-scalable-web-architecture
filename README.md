@@ -1,3 +1,4 @@
+#aws-scalable-web-architecture
 Scalable Web App using EC2,ALB,and Auto Scling for high availabity
 <img width="1024" height="881" alt="AWS Auto scaling" src="https://github.com/user-attachments/assets/b69d0066-b290-450d-b210-308edb73160b" />
 <img width="1366" height="768" alt="scaling test-png" src="https://github.com/user-attachments/assets/49a25185-8efa-4498-9c17-ad93f8194e41" />
